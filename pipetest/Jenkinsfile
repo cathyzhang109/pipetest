@@ -1,18 +1,18 @@
 node(){
-	stage('æž„å»º'){
+	stage('¹¹½¨'){
 		//test
 		echo 'build'
 	}
-	stage('æµ‹è¯•'){
+	stage('²âÊÔ'){
 		// test
 		echo 'test'
 		// bat label: '', script: 'robot -P . ../cathytest/homework5/course'
 	}
-	stage('éƒ¨ç½²'){
+	stage('²¿Êð'){
 		//test
 		echo 'deploy'
 	}
-	stage('äº¤ä»˜'){
+	stage('½»¸¶'){
 		//test
 		echo 'delivery'
 	}
