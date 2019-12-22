@@ -1,4 +1,4 @@
-node('centos7'){
+node('centos6'){
 	stage('¹¹½¨'){
 		//test
 		echo 'build'
