@@ -2,6 +2,7 @@ node(){
 	stage('ππΩ®'){
 		//test
 		echo 'build'
+		checkout scm
 	}
 	stage('≤‚ ‘'){
 		// test
