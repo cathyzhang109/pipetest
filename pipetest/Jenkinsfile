@@ -1,4 +1,4 @@
-node('centos6'){
+node(){
 	stage('¹¹½¨'){
 		//test
 		echo 'build'
@@ -6,8 +6,8 @@ node('centos6'){
 	stage('²âÊÔ'){
 		// test
 		echo 'test'
-		// bat label: '', script: 'robot -P . ../cathytest/homework5/course'
-		sh 'echo case001>>suite.txt'
+		 bat label: '', script: 'robot -P . ../cathytest/homework5/course'
+		//sh 'echo case001>>suite.txt'
 	}
 	stage('²¿Êğ'){
 		//test
